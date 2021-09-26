@@ -1,18 +1,13 @@
-body{
-    color:black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap')
+body
+{font-family: 'Crimson Text', serif;}
+
 h1{
-    color:brown;
+    color:red;
 }
 h2{
-    color:green;
+    color: blueviolet;
 }
 h3{
-    color:coral;
-}
-#lib-header{
-    color: Red;
-}
-.para{
-    color:darkgreen;
+    color:brown;
 }
