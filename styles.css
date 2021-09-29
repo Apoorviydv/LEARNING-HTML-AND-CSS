@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+:root{
+    --primary-color: purple;
+}
 body
-{font-family: 'Crimson Text', serif;}
+{
+    font-family: 'Crimson Text', serif;
+}
+
 
 h1{
     color:red;
@@ -11,3 +17,25 @@ h2{
 h3{
     color:brown;
 }
+/**container**/
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+max-width:600px;
+margin:auto;
+}
+/** links **/
+.link{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5 rem;
+    color: white;
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5 rem;
+    border:1px solid var(--primary-color);
