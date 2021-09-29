@@ -7,6 +7,9 @@ body
     font-family: 'Crimson Text', serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
 
 h1{
     color:red;
@@ -39,3 +42,13 @@ margin:auto;
     color:var(--primary-color);
     border-radius: 0.5 rem;
     border:1px solid var(--primary-color);
+}
+
+.list-non-bullet
+    {
+        list-style: none;
+    }
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
